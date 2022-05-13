@@ -10,9 +10,13 @@ body{
     height: auto; */
     /* padding: 100px 200px; */
     align-items: center;
+    display: flex;
+  
 }
 
 .container{
+    flex:auto ;
+    flex-direction: row;
     width: 800px;
     height:auto;
     display:flex;
@@ -20,6 +24,9 @@ body{
     justify-content: space-between;
     align-content: center;
     overflow: hidden;
+    flex-direction: row;
+    
+    
 }
 
 
@@ -28,6 +35,7 @@ body{
     color: #f2f2f2;
     align-items: flex-start;
     text-align: left;
+   
 }
 .Sedan{
     background-color: #e38826;
@@ -108,10 +116,48 @@ button{
     .container{
         flex-direction:column;
         width: 250px;
-        height:400;
+        height:auto;
         padding: 75px 200px;
         justify-content: space-between;
-        align-content: flex-start;
+        align-content: center;
+        overflow: hidden;
+        flex-wrap: wrap;
+         }
+    .container div{
+        /* justify-content: space-around;   */
+        height: 300px;
+        width: 120px;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    button{
+         margin-top: 20px;
+         align-items: flex-start;
+         width: 100px;
+         height: 35px;
+         font-size: 13px;
+        }
+        
+    .luxury{
+        border-radius: 0px 0px 5px 5px;
+    }
+    .Sedan{
+        border-radius: 5px 5px 0px 0px;
+    }
+    .TXT{
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:1040px){
+    .container{
+        flex-direction:column;
+        width: 250px;
+        height:auto;
+        padding: 75px 200px;
+        justify-content: space-between;
+        align-content: center;
         overflow: hidden;
         flex-wrap: wrap;
          }
