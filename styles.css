@@ -6,25 +6,24 @@
 
 body{
     background-color: #f2f2f2;
-    /* width: 100%;
-    height: auto; */
-    /* padding: 100px 200px; */
+    width: 100%;
+    height: auto; 
     align-items: center;
-    display: flex;
+    position: fixed;
+    flex-wrap: wrap;
   
 }
 
 .container{
     flex:auto ;
-    flex-direction: row;
-    width: 800px;
+    width: 70%;
     height:auto;
     display:flex;
     padding: 75px 200px;
-    justify-content: space-between;
+    justify-content: center;
     align-content: center;
-    overflow: hidden;
-    flex-direction: row;
+   
+        
     
     
 }
@@ -40,7 +39,7 @@ body{
 .Sedan{
     background-color: #e38826;
     border-radius: 5px 0px 0px 5px ;
-    /* padding-top: 50px; */
+    
 }
 
 .suv{
@@ -100,7 +99,7 @@ button{
 
 .choose{
     color: #e38826;
-    /* margin-top: 114px; */
+   
 }
 
 .cruise{
@@ -124,45 +123,6 @@ button{
         flex-wrap: wrap;
          }
     .container div{
-        /* justify-content: space-around;   */
-        height: 300px;
-        width: 120px;
-        align-items: flex-start;
-        text-align: left;
-    }
-
-    button{
-         margin-top: 20px;
-         align-items: flex-start;
-         width: 100px;
-         height: 35px;
-         font-size: 13px;
-        }
-        
-    .luxury{
-        border-radius: 0px 0px 5px 5px;
-    }
-    .Sedan{
-        border-radius: 5px 5px 0px 0px;
-    }
-    .TXT{
-        font-size: 15px;
-    }
-    
-}
-@media screen and (max-width:1040px){
-    .container{
-        flex-direction:column;
-        width: 250px;
-        height:auto;
-        padding: 75px 200px;
-        justify-content: space-between;
-        align-content: center;
-        overflow: hidden;
-        flex-wrap: wrap;
-         }
-    .container div{
-        /* justify-content: space-around;   */
         height: 300px;
         width: 120px;
         align-items: flex-start;
