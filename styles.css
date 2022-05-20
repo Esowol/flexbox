@@ -9,7 +9,7 @@ body{
     width: 100%;
     height: auto; 
     align-items: center;
-    position: fixed;
+    /* position: fixed; */
     flex-wrap: wrap;
   
 }
@@ -115,19 +115,18 @@ button{
     .container{
         flex-direction:column;
         width: 70vw;
-        height:auto;
+        height:100%;
         padding: 15vw;
         justify-content: center;
         align-content: center;
-        overflow: scroll;
         flex-wrap: wrap;
          }
     .container div{
-        height: 300px;
+        height: auto;
         width: 120px;
         align-items: flex-start;
         text-align: left;
-    }
+         }
 
     button{
          margin-top: 20px;
